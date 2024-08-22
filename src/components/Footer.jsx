@@ -29,7 +29,18 @@ const Footer = () => {
 
 				<div className="flex md:flex-row flex-col md:items-center justify-between">
 					<p className="font-semibold text-gray text-xs">
-						Copyright @ 2024 Apple Inc. All rights reserved.
+						View my other projects
+						<a
+							href="https://bento.me/satviksrivastava7"
+							target="_blank"
+							style={{
+								color: "blue",
+								textDecoration: "underline",
+							}}
+						>
+							{" "}
+							here{" "}
+						</a>
 					</p>
 
 					<div className="flex">
